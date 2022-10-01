@@ -1,0 +1,75 @@
+body{
+  display: flex;
+  margin: 0;
+}
+
+img{
+  height: 100vh;
+  width: 44vw;
+}
+p{
+  width: clamp(54ch, 55%, 75ch);
+}
+
+.top, input,
+.bottom, legend, label{
+  margin-left: 3vw;
+}
+
+.right{
+  background-color: #E5E7EB;
+  position: relative;
+}
+
+div.top{
+  position: relative;
+  font-size: 1.5rem;
+  top: 15vh;
+  font-weight: 800;
+  height: 33vh;
+}
+div.forms{
+  height: 30vh;
+  background-color: #f9faf8;
+  box-shadow: 2px 2px 8px grey;
+}
+
+span{
+  font-style: italic;
+}
+.sign-in{
+  font-style: normal;
+  font-weight: bold;
+  color: #596D48;
+  
+}
+
+legend{
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+label{
+  font-size: .8rem;
+}
+input{
+  display: block;
+  width: 100%;
+}
+
+.names, .contact, .password{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+input:focus{
+  border-color: blue;
+}
+
+button{
+  height: 2rem;
+  background-color: #596D48;
+  color: white;
+  border-radius: 4px;
+}
